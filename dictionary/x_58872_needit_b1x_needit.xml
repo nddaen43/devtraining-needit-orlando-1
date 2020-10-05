@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="B1X NeedIt" max_length="40" name="x_58872_needit_b1x_needit" type="collection">
+    <element audit="true" extends="task" label="B1X NeedIt" max_length="40" name="x_58872_needit_b1x_needit" sizeclass="6" type="collection">
         <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_2" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="human resources" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
